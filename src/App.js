@@ -1,4 +1,4 @@
-// Importing axios (make sure axios is included in your project)
+// Importing axios (make sure axios is included)
 import axios from "axios";
 function refreshWeather(response) {
     let temperatureElement = document.querySelector("#temperature");
@@ -25,4 +25,4 @@ function handleSearchSubmit(event) {
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
-searchCity("Paris");
+searchCity("Midrand");
