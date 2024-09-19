@@ -1,0 +1,21 @@
+{
+  "name": "my-weather-app",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "scripts": {
+    "dev": "http-server ./ -p 8080",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "packages": {
+    "": {
+      "name": "my-weather-app",
+      "version": "1.0.0",
+      "license": "ISC",
+      "devDependencies": {
+        "http-server": "^14.1.1"
+      }
+    }
+  }
+}
+
